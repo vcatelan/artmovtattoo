@@ -61,6 +61,11 @@ img {
 	justify-content: space-between;
 	align-items: center;
 }
+.menu-logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .menu a {
 	color: #eeebda;
 }
@@ -68,6 +73,9 @@ img {
 	font-size: 2.25em;
 	font-weight: bold;
 	margin: 0 10px;
+}
+.menu-nav {
+	width: 100%;
 }
 .menu-nav ul {
 	display: flex;
