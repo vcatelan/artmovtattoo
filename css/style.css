@@ -4,7 +4,8 @@ body, h1, h2, p, ul, li, a {
 }
 body {
 	font-family: "Nunito", Helvetica, Arial, sans-serif;
-	color: #222222;
+	color: #eeebda;
+	background-color: #020202;
 }
 ul {
 	list-style: none;
@@ -20,7 +21,7 @@ img {
 	box-sizing: border-box;
 }
 .superinfo-bg {
-	background: #622082;
+	background: #800080;
 	color: #eeebda;
 }
 .superinfo {
@@ -50,7 +51,7 @@ img {
     width: 150px;
 }
 .menu-bg {
-	background: #800080;
+	background: #520052;
 }
 .menu {
 	max-width: 960px;
@@ -92,6 +93,85 @@ img {
 .menu-nav a:hover{
 	color: #020202;
 }
+.topico {
+	color: #800080;
+}
+.introducao {
+	font-size: 3em;
+	line-height: 1;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 10px;
+}
+.topico {
+	border-bottom: 2px solid #520052;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.topico-f {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.topico-info {
+	flex: 2 1 300px;
+	margin: 0 10px;
+}
+.topico-info h1 {
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+.topico-info p {
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #eeebda;
+}
+.topico-info img {
+	flex: 1 1 160px;
+	margin: 0 10px;
+}
+
+.tatuadores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+.tatuadores-img {
+    flex: 1 1 250px;
+    margin: 10px;
+	justify-content: center
+}
+
+.tatuadores-img > img {
+	margin: 0 0px;
+	border: 30px solid purple;
+	border-radius: 100%;
+	padding: 0px;
+	
+}
+.tatuadores-img h2 {
+    font-size: 1.5em;
+    color: #520052;
+    padding: 20px 5px;
+}
+.tipo-tattoo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+.tipo-img {
+	flex: 1 1 175px;
+	margin: 10px;
+}
+.tipo-img :hover {
+	border-bottom: 8px solid #800080;
+}
 
 
 @media (max-width: 600px) {
@@ -101,7 +181,7 @@ img {
 }
 .footer {
 	display: flex;
-	background: #622082;
+	background: #520052;
 	height: 200px;
 	align-items: center;
 }
