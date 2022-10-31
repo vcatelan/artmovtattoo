@@ -160,10 +160,14 @@ img {
     color: #520052;
     padding: 20px 5px;
 }
-.tipo-tattoo {
+.tipos-tattoo {
+	max-width: 960px;
     display: flex;
     flex-wrap: wrap;
     align-items:flex-end;
+    margin: 0px auto;
+    padding: 60px 0px;
+
 }
 .tipo-img {
 	flex: 1 1 175px;
