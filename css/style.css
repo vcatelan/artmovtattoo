@@ -150,8 +150,8 @@ img {
 
 .tatuadores-img > img {
 	margin: 0 0px;
-	border: 30px solid purple;
-	border-radius: 100%;
+	/* border: 30px solid purple;
+	border-radius: 100%; */
 	padding: 0px;
 	
 }
@@ -194,4 +194,15 @@ img {
 	text-align: center;
 	font-size: 2.25em;
 	color: #020202;
+}
+
+.js .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.ativo {
+    opacity: 1;
+    transition: .3s;
+    transform: translate3d(0, 0, 0);
 }
